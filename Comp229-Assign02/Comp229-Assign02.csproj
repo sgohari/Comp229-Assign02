@@ -66,6 +66,9 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\IndexStyleSheet.css" />
+    <Content Include="images\HyundaiBanner.png" />
+    <Content Include="images\MainBkg.jpg" />
     <Content Include="Index.aspx" />
     <Content Include="packages.config" />
     <Content Include="Scripts\jquery-2.2.4.min.map" />

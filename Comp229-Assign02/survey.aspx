@@ -3,6 +3,8 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <h1>Survey page    </h1>
+    <fieldset>
+    <legend>Fill the form</legend>
     <asp:Label runat="server" Text="Username"/>
     <asp:TextBox ID="UsernameTxtBox" runat="server" TextMode="SingleLine" />
     <asp:RequiredFieldValidator ID="UserTxtBox_RequiredFieldValidator1" Display="Dynamic" runat="server" ControlToValidate="UsernameTxtBox" ErrorMessage="User name is Required" />
@@ -17,4 +19,5 @@
     <asp:RegularExpressionValidator ID="EamilRegValidation" runat="server" ControlToValidate="EmailTxt" ErrorMessage="Email format does not matched" ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*"></asp:RegularExpressionValidator>
     <br />
      <asp:Button ID="Submitt" runat="server" OnClick="Submitt_Click"/>
+      </fieldset>
 </asp:Content>
