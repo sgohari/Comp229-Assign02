@@ -3,7 +3,7 @@
 */
 body
  {
-    background-color:grey;
+    background-color:azure;
 }
 /*
     Customizing the dive content
@@ -13,7 +13,7 @@ body
     margin-left:auto;
     margin-right:auto;
     width:900px;
-    background-color:burlywood;
+    background-color:gray;
     border-radius: 15px;
     
 }

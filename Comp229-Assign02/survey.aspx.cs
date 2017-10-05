@@ -13,5 +13,13 @@ namespace Comp229_Assign02
         {
 
         }
+
+        protected void Submitt_Click(object sender, EventArgs e)
+        {
+            if (UsernameTxtBox.Text == "")
+            {
+                UserTxtBox_RequiredFieldValidator1.Text = "Please fill the Box";
+            }
+        }
     }
 }
