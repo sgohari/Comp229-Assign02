@@ -22,6 +22,14 @@ h1:hover
     background-position:top center;
     background-repeat:no-repeat;
 }
+h2{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:x-large;
+    color:blue;
+    text-align:center;
+    text-transform:uppercase;
+
+}
 .Paragraph {
     font-size:larger;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -34,4 +42,31 @@ a:hover{
     text-decoration:none;
     text-decoration-line:none;
     color:none;
+}
+#parentsDiv {
+    width:950px;
+    margin-left:auto;
+    margin-right:auto;
+    height: 187px;
+}
+.careerforRight {
+    float: right;
+    width: 290px;
+    height: 213px;
+    margin-right:auto;
+    margin-left:auto;
+    margin-top: 7px;
+}
+.careerforLeft {
+    border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    float: left;
+    width: 310px;
+    height: 237px;
+    margin: 10px;
+}
+.pic {
+    height:152px;
+    width:264px;
 }

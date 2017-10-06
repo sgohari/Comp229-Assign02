@@ -68,7 +68,11 @@
   <ItemGroup>
     <Content Include="Content\IndexStyleSheet.css" />
     <Content Include="Content\SurveyStyleSheet.css" />
+    <Content Include="images\HYUNDAI.png" />
+    <Content Include="images\HyundaiAlgers.jpg" />
     <Content Include="images\HyundaiBanner.png" />
+    <Content Include="images\HyundaiIndia.jpg" />
+    <Content Include="images\HYUNDAIJapan.jpeg" />
     <Content Include="images\MainBkg.jpg" />
     <Content Include="Index.aspx" />
     <Content Include="packages.config" />
