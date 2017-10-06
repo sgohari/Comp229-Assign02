@@ -67,6 +67,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\IndexStyleSheet.css" />
+    <Content Include="Content\SurveyStyleSheet.css" />
     <Content Include="images\HyundaiBanner.png" />
     <Content Include="images\MainBkg.jpg" />
     <Content Include="Index.aspx" />
@@ -111,7 +112,9 @@
     <Content Include="Content\StyleSheetForMain.css" />
     <Content Include="survey.aspx" />
     <Content Include="thanks.aspx" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Global.asax.cs">

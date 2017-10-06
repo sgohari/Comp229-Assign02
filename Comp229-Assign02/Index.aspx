@@ -8,7 +8,7 @@
     <div id="index">
         
         <h1>Welcome to Hyundai DealerShip</h1>
-        <p> As a certified Hyundai delear, we offer the best deal in our models.<br />
+        <p class="Paragraph"> As a certified Hyundai delear, we offer the best deal in our models.<br />
             currently, we are survey for any issues with vehicle which is purchased, leased and finnaced from our delearship.<br />
             please <a href="survey.aspx">Click Here </a>&nbsp;to participate in the survey.
         </p>

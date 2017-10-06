@@ -22,3 +22,16 @@ h1:hover
     background-position:top center;
     background-repeat:no-repeat;
 }
+.Paragraph {
+    font-size:larger;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:black;
+}
+a{
+    text-decoration:none;
+}
+a:hover{
+    text-decoration:none;
+    text-decoration-line:none;
+    color:none;
+}

@@ -20,6 +20,21 @@ namespace Comp229_Assign02
             {
                 UserTxtBox_RequiredFieldValidator1.Text = "Please fill the Box";
             }
+            if (txtForAge.Text == "")
+            {
+                RequiredFieldValidator1.Text = "You must enter your age";
+            }
+
+        }
+
+        protected void rdM_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void rdF_CheckedChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
