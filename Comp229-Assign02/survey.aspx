@@ -15,13 +15,13 @@
              <asp:RequiredFieldValidator ID="UserTxtBox_RequiredFieldValidator1" runat="server"
                   ControlToValidate="UsernameTxtBox" ErrorMessage="First name is Required" Display="Dynamic" />
         </div><br />
-        <div>
-            <asp:Label runat="server" Text="Last Name: " CssClass="Left"> </asp:Label>
-            &nbsp;
-            <asp:TextBox ID="lnametxt" runat="server" TextMode="SingleLine" CssClass="Right" Width="180px" />
-            <asp:RequiredFieldValidator ID="lnameValidator" Display="Dynamic" runat="server" 
-                ControlToValidate="lnametxt" ErrorMessage="Last name is required" />
-     </div><br />
+        <div><asp:Label runat="server" Text="Last Name" CssClass="Left"/>
+        &nbsp;&nbsp;&nbsp;
+        <asp:TextBox ID="LastNameTxt" runat="server" TextMode="SingleLine" CssClass="Right" Width="180px" />
+             <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server"
+                  ControlToValidate="LastNameTxt" ErrorMessage="Last name is Required" Display="Dynamic" />
+        </div>
+<br />
         <div>
             <asp:Label runat="server" Text="Gender" CssClass="Left" />
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;

@@ -27,7 +27,7 @@ namespace Comp229_Assign02
             if (Page.IsValid)
             {
                 Session["copyFirstName"] = UsernameTxtBox.Text;
-                Session["copyLastName"] = lnametxt.Text;
+                Session["copyLastName"] = LastNameTxt.Text;
                 Response.Redirect("thanks.aspx");
             }
         }
@@ -41,5 +41,10 @@ namespace Comp229_Assign02
         {
 
         }
+    }
+
+    internal class LastNameTxt
+    {
+        public static object Text { get; internal set; }
     }
 }

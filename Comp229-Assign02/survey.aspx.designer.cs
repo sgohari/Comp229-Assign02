@@ -31,22 +31,13 @@ namespace Comp229_Assign02 {
         protected global::System.Web.UI.WebControls.RequiredFieldValidator UserTxtBox_RequiredFieldValidator1;
         
         /// <summary>
-        /// lnametxt control.
+        /// RequiredFieldValidator2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox lnametxt;
-        
-        /// <summary>
-        /// lnameValidator control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator lnameValidator;
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator2;
         
         /// <summary>
         /// ddlGender control.
