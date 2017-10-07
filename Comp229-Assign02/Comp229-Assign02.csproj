@@ -68,6 +68,8 @@
   <ItemGroup>
     <Content Include="Content\IndexStyleSheet.css" />
     <Content Include="Content\SurveyStyleSheet.css" />
+    <Content Include="Content\thanksPageStyleSheet.css" />
+    <Content Include="images\1.png" />
     <Content Include="images\HYUNDAI.png" />
     <Content Include="images\HyundaiAlgers.jpg" />
     <Content Include="images\HyundaiBanner.png" />

@@ -24,7 +24,12 @@ namespace Comp229_Assign02
             {
                 RequiredFieldValidator1.Text = "You must enter your age";
             }
-
+            if (Page.IsValid)
+            {
+                Session["copyFirstName"] = UsernameTxtBox.Text;
+                Session["copyLastName"] = lnametxt.Text;
+                Response.Redirect("thanks.aspx");
+            }
         }
 
         protected void rdM_CheckedChanged(object sender, EventArgs e)
