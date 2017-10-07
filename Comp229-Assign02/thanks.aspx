@@ -8,7 +8,7 @@
           <h2>Your time is valued and we will improve our service to our customer with your feedbacks</h2>
     <asp:PlaceHolder ID="forThanksPage" runat="server">
         <h1>
-        We want to appreciate you  <%=Session["copyFirstName" ] %> <%=Session[" copyLastName"] %> for your time and thanks you for taking part in our survey.</h1>
+        We want to appreciate you  <%=Session["copyFirstName" ] %>  for your time and thanks you for taking part in our survey.</h1>
     </asp:PlaceHolder>
         </div>
 </asp:Content>
