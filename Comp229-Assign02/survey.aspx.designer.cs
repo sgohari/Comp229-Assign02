@@ -31,6 +31,15 @@ namespace Comp229_Assign02 {
         protected global::System.Web.UI.WebControls.RequiredFieldValidator UserTxtBox_RequiredFieldValidator1;
         
         /// <summary>
+        /// Lastnames control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox Lastnames;
+        
+        /// <summary>
         /// RequiredFieldValidator2 control.
         /// </summary>
         /// <remarks>

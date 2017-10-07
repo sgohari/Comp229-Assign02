@@ -17,9 +17,9 @@
         </div><br />
         <div><asp:Label runat="server" Text="Last Name" CssClass="Left"/>
         &nbsp;&nbsp;&nbsp;
-        <asp:TextBox ID="LastNameTxt" runat="server" TextMode="SingleLine" CssClass="Right" Width="180px" />
+        <asp:TextBox ID="Lastnames" runat="server" TextMode="SingleLine" CssClass="Right" Width="180px" />
              <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server"
-                  ControlToValidate="LastNameTxt" ErrorMessage="Last name is Required" Display="Dynamic" />
+                  ControlToValidate="Lastnames" ErrorMessage="Last name is Required" Display="Dynamic" />
         </div>
 <br />
         <div>
